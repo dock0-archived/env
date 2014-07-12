@@ -8,3 +8,4 @@ RUN git clone git://github.com/ingydotnet/....git /home/$ADMIN/...
 ADD dotdotdot.conf /home/$ADMIN/.../conf
 ADD known_hosts /home/$ADMIN/.ssh/known_hosts
 ADD zshrc /home/$ADMIN/.zshrc
+RUN chown -R $ADMIN:$ADMIN /home/$ADMIN
