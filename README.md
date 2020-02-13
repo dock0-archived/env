@@ -1,9 +1,8 @@
 dock0/env
 =======
 
-[![Automated Build](https://img.shields.io/docker/build/dock0/env.svg)](https://hub.docker.com/r/dock0/env/)
-[![Build Status](https://img.shields.io/travis/com/dock0/env.svg)](https://travis-ci.com/dock0/env)
-[![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dock0/env/Build)](https://github.com/dock0/env/actions))
+[![License](https://img.shields.io/github/license/dock0/env)](https://github.com/dock0/env/blob/master/LICENSE)
 
 Basic user environment, with dotfiles and ZSH and such.
 
