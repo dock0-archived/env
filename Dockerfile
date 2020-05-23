@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/dock0/ssh/ssh:20200523-c7bf363
+FROM docker.pkg.github.com/dock0/ssh/ssh:20200523-612b26b
 MAINTAINER akerl <me@lesaker.org>
 RUN pacman -S --noconfirm --needed cpio dnsutils htop lockfile-progs lsof mtr net-tools whois zsh neovim
 RUN usermod --shell /usr/bin/zsh $ADMIN
